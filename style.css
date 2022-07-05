@@ -1,0 +1,70 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.donate-them {
+
+    /* background-image: url("donate-today-main/images/donation12.png"); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 100vh;
+    background-image: linear-gradient(rgba(109, 109, 109, 0.486), rgba(0, 0, 0, 0.918)), url(donate-today-main/images/donation2.jpg)
+}
+
+.donation {
+    padding-top: 25%;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.link-button {
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+
+.helping-amount {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+
+
+}
+
+.height-width {
+    height: 50px;
+    width: 80px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px solid red;
+    background-color: rgb(250, 238, 238);
+}
+
+.help-section {
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#highlight-amount {
+    border: 2px solid red;
+    color: red;
+    font-weight: 900;
+}
+
+.help-section>h2,
+p {
+    text-align: center;
+}
+
+.output {
+    justify-content: center;
+    text-align: center;
+}
